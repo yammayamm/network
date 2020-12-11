@@ -16,8 +16,8 @@
 - 프로토콜 설정
   - Go-back-N sending window size = 50
   - Selective Repeat sending window size = 50, receiving window size = 50
-  - 전송 오류   =  
-  - transmission delay와 propagation delay를 포함한 RTT () = 10ms
+  - 전송 오류(pe) = 1/1000
+  - transmission delay와 propagation delay를 포함한 RTT (r) = 10ms
 
 ## 실행 방법
 각 파일 안에는 sender와 receiver 코드가 따로 구분되어 있는데, python console에서 receiver 코드를 실행해주어 socket을 열어준 후 sender 코드를 실행해준다. 
